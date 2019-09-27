@@ -56,7 +56,7 @@ LowerCamelCase, boolean类型无需加前缀is
 ##### 3.2.1 id
 规则：类型+模块+描述   
 示例：tv_name、tv_login_name
-##### 3.2.2 tv_name
+##### 3.2.2 name
 规则：模块+描述  
 style类型为UpperCamelCase,其他类型为下划线小写  
 示例：title_content、login_title_content
