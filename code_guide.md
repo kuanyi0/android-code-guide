@@ -19,8 +19,8 @@
 #### 2.1 通用
 - static final -> CONSTANT_NAME
 - static -> sApplication
-- non-static、non-public -> mFied
-- non-static、public -> fied
+- non-static、non-public -> mFiled
+- non-static、public -> filed
 
 #### 2.2 特殊
 - *java bean*  
@@ -48,7 +48,7 @@ LowerCamelCase, boolean类型无需加前缀is
 示例：activity_main、item_person、partial_status_bar
 ##### 3.1.4 mipmap
 只存放应用图标
-##### 3.1.5 vaules
+##### 3.1.5 values
 规则：类型的复数形式  
 示例：strings.xml、dimens.xml、attrs.xml
 
