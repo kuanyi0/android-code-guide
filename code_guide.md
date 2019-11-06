@@ -3,12 +3,16 @@
 ### 1.命名基础
 #### 1.1 通用
 - 类名：UpperCamelCase
+- 方法名：LowerCamelCase
+- 常量名：CONSTANT_CASE
 - 变量名：LowerCamelCase
 #### 1.2 特殊
 - *acronym(首字母缩略词)*   
 当做一个word对待  
 示例：XmlHttpRequest、supportIpv6OnIos
-
+#### 1.3 说明
+- 常量
+内容不可变的成员变量，static final修饰的不一定是常量
 
 ### 2.类名
 #### 2.1 通用
@@ -19,14 +23,13 @@
 - BaseView
 - LoginActivityTest
 - *interface*  
-  - Runnable、Accessible  
-  - OnClickListener
-  - IBinder
+    - Runnable、Accessible  
+    - OnClickListener
+    - IBinder
 
 
 ### 3.成员变量名
 #### 3.1 通用
-- static final -> CONSTANT_NAME
 - static -> sApplication
 - non-static、non-public -> mFiled
 - non-static、public -> filed
