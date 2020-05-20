@@ -7,11 +7,11 @@
 - 常量名：CONSTANT_CASE
 - 变量名：LowerCamelCase
 #### 1.2 特殊
-- *acronym(首字母缩略词)*   
+- *acronym(首字母缩略词)*  
 当做一个word对待  
 示例：XmlHttpRequest、supportIpv6OnIos
 #### 1.3 说明
-- 常量
+- 常量  
 内容不可变的成员变量，static final修饰的不一定是常量
 
 ### 2.类名
@@ -66,3 +66,27 @@ LowerCamelCase, boolean类型无需加前缀is
 规则：模块+描述  
 style类型为UpperCamelCase,其他类型为下划线小写  
 示例：title_content、login_title_content
+
+### 5.注释
+#### 5.1 类注释
+规则：必须写明作者和时间  
+示例：
+```
+@author yikuan
+@date 2020/05/20
+```
+#### 5.2 方法注释
+示例：
+```
+/**
+ * view 转 bitmap
+ *
+ * @param view view 对象
+ * @return bitmap
+ */
+```
+#### 5.3 块注释
+示例：
+```
+// This is a comment.
+```
