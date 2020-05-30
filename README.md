@@ -1,6 +1,4 @@
-# Android Code Guide
-
-### Android项目编码规范
+# Android code guide
 
 - [项目规范](project_guide.md)
 - [代码规范](code_guide.md)
