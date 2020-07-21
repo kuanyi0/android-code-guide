@@ -17,9 +17,8 @@
 - service
 - receiver
 - provider
-- model
+- data
 - adapter
-- db
 - ...
 - util
 - *XxApplication*
@@ -34,10 +33,10 @@
 - service
 - receiver
 - provider
+- data
 - feature1
 - ...
 - feature2
-- data
 - util
 - *XxApplication*
 - *Constant*
