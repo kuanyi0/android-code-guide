@@ -7,7 +7,7 @@
 - 常量名：CONSTANT_CASE
 - 变量名：LowerCamelCase
 #### 1.2 特殊
-- *acronym(首字母缩略词)*  
+- *acronym（首字母缩略词）*
 当做一个word对待  
 示例：XmlHttpRequest、supportIpv6OnIos
 #### 1.3 说明
@@ -35,7 +35,7 @@
 - non-static、public -> filed
 #### 3.2 特殊
 - *java bean*  
-LowerCamelCase, boolean类型无需加前缀is
+LowerCamelCase，boolean类型无需加前缀is
 - 使用kotlin时，无需加前缀
 
 
@@ -64,7 +64,7 @@ LowerCamelCase, boolean类型无需加前缀is
 示例：tv_name、tv_login_name
 ##### 4.2.2 name
 规则：模块+描述  
-style类型为UpperCamelCase,其他类型为下划线小写  
+style类型为UpperCamelCase，其他类型为下划线小写
 示例：title_content、login_title_content
 
 ### 5.注释
