@@ -34,6 +34,7 @@
 - receiver
 - provider
 - data
+- adapter
 - feature1
 - ...
 - feature2
@@ -43,5 +44,5 @@
 
 ##### 1.2.3 说明
 PBF:   
-feature包属于私有,包含相关的类(XxActivity, XxUtils...)  
-其他的包均属于公有,包含公共的类(BaseActivity, LogUtils...)
+feature包属于私有，包含相关的类(XxActivity、XxUtils...)  
+其他的包均属于公有，包含公共的类(BaseActivity、LogUtils...)
